@@ -1,0 +1,36 @@
+{
+  "name": "tgsticker2matrix",
+  "private": true,
+  "version": "0.1.0",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=20.19"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "deploy": "npm run build && wrangler deploy",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit",
+    "lint": "oxlint src worker"
+  },
+  "dependencies": {
+    "fflate": "^0.8.3",
+    "gemoji": "^8.1.0",
+    "gifenc": "^1.0.3",
+    "lottie-web": "^5.13.0",
+    "preact": "^10.29.8"
+  },
+  "devDependencies": {
+    "@cloudflare/vite-plugin": "^1.62.3",
+    "@preact/preset-vite": "^2.10.6",
+    "@types/node": "^26.6.3",
+    "oxlint": "^1.86.0",
+    "typescript": "^5.9.3",
+    "vite": "^7.3.6",
+    "vitest": "^3.2.7",
+    "wrangler": "^4.145.0"
+  }
+}
