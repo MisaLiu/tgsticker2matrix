@@ -95,6 +95,13 @@ export function App() {
           </div>
         </div>
         <p>{t('app.tagline')}</p>
+        <p>
+            GitHub:&nbsp;
+            <a
+              href="https://github.com/MisaLiu/tgsticker2matrix"
+              target="_blank"
+            >https://github.com/MisaLiu/tgsticker2matrix</a>
+          </p>
       </header>
 
       <nav class="steps">

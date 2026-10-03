@@ -4,6 +4,10 @@
   "version": "0.1.0",
   "license": "MIT",
   "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MisaLiu/tgsticker2matrix.git"
+  },
   "engines": {
     "node": ">=20.19"
   },
